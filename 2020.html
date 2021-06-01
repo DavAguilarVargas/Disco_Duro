@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Primer Proyecto con HTML y CSS</title>
+   <link rel='stylesheet' type='text/css' media='screen' href='css/estilos.css'>
+   <link rel="stylesheet" type="text/css" href="css/animate.css"> 
+   <script src='main.js'></script>
+   <script src="https://kit.fontawesome.com/b3f1b20ae1.js" crossorigin="anonymous"></script>
+   <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav id="nav" class="nav1">
+            <div class="contenedor-nav">
+                <div class="logo">
+                    <img src="img/Black_DAV.png" alt="logo" class="animated zoomInDown">
+                </div>
+                <h4>EL LIMITE ES TU IMAGINACION</h4>
+                <div class="enlaces" id="enlaces">
+                    <a href="#" id="enlace-inicio" class="btn-header">Inicio</a>
+                    <a href="#sobre-mi" id="enlace-equipo" class="btn-header">Sobre Mi</a>
+                    <a href="#" id="enlace-servicio" class="btn-header">Cursos</a>
+                    <a href="#" id="enlace-trabajo" class="btn-header">Eventos</a>
+                    <a href="#galeria" class="btn-header">Galeria</a>
+                    <a href="#" id="enlace-contacto" class="btn-header">Contacto</a>
+                </div>
+                <div class="icono" id="open">
+                    <span>&#9776;</span>
+                </div>
+            </div>
+        </nav>
+        <div class="textos">
+            <div class="slider">
+                <img src="img/slider.jpg" alt="slider">
+            </div>
+            <h1>BIENVENIDO</h1>
+            <h2>SI LO PUEDES IMAGINAR LO PUEDES PROGRAMAR</h2> 
+        </div>
+    </header>
+    <br>
+    <section class="team contenedor" id="equipo">
+    <div class="sobremi">
+        <div class="contenido-sobremi">
+            <h3 class="titulo">SOBRE D_A_VID</h3>
+
+            <h3 class="titulo">COMPUTER</h3>
+            <img src="img/sobre_mi.jpg">
+            <br>
+            <p>¿Todo listo para poner manos a la obra y aprender algo nuevo?<br>
+                Le damos la bienvenida a D_A_Vid Computer.<br>
+                Nuestro objetivo es proporcionarle las habilidades, la experiencia 
+                y la confianza que necesita para el exito profesional.
+            </p>
+        </div>      
+    </div>
+    <section>
+    <br>
+    <!--CURSOS-->
+    <section class="todos-los-cursos" id="servicio">
+        <h2 class="titulo">CURSOS</h2>
+        <div class="contenedor-cursos">
+            <article class="curso">
+                <img class="img-curso" src="img/curso_taller_computadoras.jpg">
+                <h3 class="titulo-curso">Taller de fabricacion de computadoras</h3>
+                <hr>  
+                <p> Comienza el 05,Enero,2021<br><br>
+                    $ 19.99
+                   <a class="link-cursos"href="#">Reservar ahora</a><br><br>
+                 </p>
+            </article>
+            <article class="curso">
+               <img class="img-curso" src="img/curos_tecnologias_informacion.jpg">
+               <h3 class="titulo-curso">Curso basico de tecnologias de la informacion</h3>
+               <hr>
+                <p> Comienza el 12,Marzo,2022<br><br>
+                    $ 10.00
+                    <a class="link-cursos"href="#">Reservar ahora</a><br><br>
+                </p>
+           </article>
+           <article class="curso">
+               <img class="img-curso"src="img/curso_Procesadores_texto.jpg">
+               <h3 class="titulo-curso">Curso de procesadores de texto</h3>
+               <hr>
+                <p> Comienza el 30,abril,2022<br><br>
+                    $10.55
+                    <a class="link-cursos" href="#">Reservar ahora</a><br><br>
+                </p>
+           </article>
+        </div>
+   </section>
+    <!--EVENTOS-->
+    <br>
+    <section class="noticias" id="trabajo">
+         <h2 class="titulo">Proximos Eventos</h2>
+         <div class="contenedor-noticias">
+             <article class="articulos">
+                 <img class="img-noticia" src="img/evento1.jpg">
+                 <h3 class="titulo-noticia">Evento</h3>
+                  <p> jue,09,ene.|La Paz
+                      <a class="link-noticias"href="#">Reservar</a><br><br>
+                  </p>
+             </article>
+             <article class="articulos">
+                <img class="img-noticia" src="img/evento2.jpg">
+                <h3 class="titulo-noticia">Evento2</h3>
+                 <p> jue,09,ene.|La Paz
+                     <a class="link-noticias"href="#">Reservar</a><br><br>
+                 </p>
+            </article>
+            <article class="articulos">
+                <img class="img-noticia"src="img/evento3.jpg">
+                <h3 class="titulo-noticia">Evento3</h3>
+                 <p> jue,09,ene.|Cochabamba
+                     <a class="link-noticias" href="#">Reservar</a><br><br>
+                 </p>
+            </article>
+            <article class="articulos">
+                <img class="img-noticia"src="img/evento4.jpg">
+                <h3 class="titulo-noticia">Evento4</h3>
+                 <p>jue,09,ene.|Santa Cruz
+                     <a class="link-noticias" href="#">Reservar</a><br><br>
+                 </p>
+            </article>
+         </div>
+    </section>
+    <!--VIDEOS-->
+   <div id="galeria" id="reproductor">
+    <video controls>
+        <source src="videos/mac-quayle-mr-robot.mp4" type="video/mp4">
+    </video>
+</div>
+    <!--GALERIA-->
+   <div class="galeria">
+        <h2 class="titulo">GALERIA</h2>
+        <div class="fotos">
+            <img src="img/Foto1.jpg" alt="Foto 1">
+            <img src="img/Foto2.jpg" alt="Foto 2">
+            <img src="img/Foto3.jpg" alt="Foto 3">
+            <img src="img/Foto4.jpg" alt="Foto 4">
+            <img src="img/Foto5.jpg" alt="Foto 5">
+            <img src="img/Foto6.jpg" alt="Foto 6">
+        </div>
+   </div>
+   <!--CONTACTO FORMULARIO-->
+   <div class="formulario" id="contacto">
+    <div class="form-contacto">
+        <form action="#">
+            <h2 class="titulo">CONTACTO</h2>
+            <div>
+                <label for="nombre"></label>
+                <input type="text" name="nombre" id="nombre"placeholder="Nombre">
+                <div>  
+                    <label for="correo"></label>
+                    <input type="email" name="correo" id="correo"placeholder="Email" required>
+                </div>
+            </div>
+           
+            <div>  
+                <label for="asunto"></label>
+                <input type="email" name="correo" id="correo"placeholder="asunto">
+            </div>
+            <div>
+                <label for="consulta"></label>
+                <textarea name="consulta" id="consulta" cols="30"
+                rows="10" placeholder="Escribe tu mensaje aqui..."></textarea>
+            </div>
+            <div>
+                <input class="enviar" type="submit" value="Enviar">
+            </div>   
+         </form>
+    </div>
+</div>
+   <div class="contactos">
+       
+       <div class="mapa">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m
+        3!1d956.3313844064648!2d-68.1529851707888!3d-16.50965499928813!2m
+        3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTbCsD
+        MwJzM0LjgiUyA2OMKwMDknMDguOCJX!5e0!3m2!1ses!2sbo!4v1531825136650" 
+        width="600" height="450"
+         frameborder="0" style="border:0;" allowfullscreen="" 
+         aria-hidden="false" tabindex="0"></iframe>
+       </div>
+   </div>
+    
+
+     <footer class="piepagina">
+         <small>&copy; Todos los Derechos Reservados- 2020
+              por <a class="contact" href="https://www.youtube.com/watch?v=tJxTb54RT1c&list=PLkLimRXN6NKwfdpe58QyFSyFwyiTLiUab">David Aguilar Vargas</a></small>
+              <div class="ubicacion">
+                <div class="central">
+                    <p><span class="contact">Telefono: </span>73700152
+                    </p>
+                    <p><span class="contact">Correo: </span>aguilarvargasd15@gmail.com
+                    </p>
+                </div>
+                     
+            </div>
+              <div class="redes-sociales">
+                  <a class="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                  <a class="whatsapp" href="#"><i class="fab fa-whatsapp"></i></a>
+                 <a class="linkedin" href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a class="youtube" href="#"><i class="fab fa-youtube"></i></a>
+              </div>      
+     </footer>
+     <script src="js/jquery.js"></script>
+     <script src="js/main.js"></script>
+     <script src="js/filtro.js"></script>
+</body>
+</html>
+<!--DAVID AGUILAR VARGAS - 2DO "B"- 2020 -->
